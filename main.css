@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: black;
+  color: white;
+  margin-left: auto;   
+}
+
+.main-nav > a {
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+  font-family: 'Roboto', cursive;
+  color: white;
+  background: black;
+}
+
+header {
+  padding-bottom: 23%;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  padding-left: 30px; 
+  font-family: 'Mr Dafoe', cursive;
+  color: white;
+}
+
+.column {
+  border: 1px solid black ;
+  width: 50%;
+  padding: 6%;
+  display: inline-block;
+  float: left;
+}
+
+.content-info {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  font-family: 'Roboto', cursive;
+  color: white;
+  background: black;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  background-color: white;
+}
+
+.column1 {
+  border: 1px solid black ;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  min-height: 10px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+.contact1 {
+  min-height: 200px;
+  background-color: #bbb;
+  border: 1px solid black ;
+  width: 100%;
+  height: auto;
+  float: left;
+  display: inline-block;
+  padding-left: 6% 0;
+}
+
+.message1 {
+  min-height: 200px;
+  background-color: #bbb;
+}
+
+.title-section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: white;
+}
+
+.first-name, .last-name, .email, .number, .message, input {
+  display: inline-block;
+  float: left;
+}
+
+.contact-form {
+  width: auto;
+}
+
+input.messagetype {
+width: 100%;
+height: 250px;
+}
+
